@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Construction_Management_Project_Model.Models
 {
-    internal class TaxMasterModel
+    public class TaxMasterModel
     {
     }
 }
