@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construction_Management_Project_Model", "Construction_Management_Project_Model\Construction_Management_Project_Model.csproj", "{F26EC922-2B5D-4D47-A846-6FD1A378FE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construction_ERP", "Construction_ERP\Construction_ERP.csproj", "{3AA1DE85-2780-4FBC-9C35-274AA3121E29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F26EC922-2B5D-4D47-A846-6FD1A378FE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F26EC922-2B5D-4D47-A846-6FD1A378FE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F26EC922-2B5D-4D47-A846-6FD1A378FE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA1DE85-2780-4FBC-9C35-274AA3121E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA1DE85-2780-4FBC-9C35-274AA3121E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA1DE85-2780-4FBC-9C35-274AA3121E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA1DE85-2780-4FBC-9C35-274AA3121E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
