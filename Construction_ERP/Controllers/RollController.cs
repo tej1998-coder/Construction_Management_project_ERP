@@ -10,11 +10,11 @@ namespace Construction_ERP.Controllers
     [ApiController]
     public class RollController : ControllerBase
     {
-        public readonly Context Context; 
+        public readonly Context context; 
 
         public RollController(Context Context)
         {
-           Context = Context;
+           context = Context;
         }
 
         [HttpPost]
@@ -40,7 +40,7 @@ namespace Construction_ERP.Controllers
                     Data = strData + "|Exception:" + ex.Message,
                     Flag = 0
                 };
-                Context.ErrorLog_Table.Add(log);
+                context.ErrorLog_Table.Add(log);
 
                 return BadRequest(new { Error = ex.Message });
             }
