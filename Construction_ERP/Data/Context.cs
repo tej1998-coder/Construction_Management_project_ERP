@@ -12,6 +12,7 @@ namespace Construction_ERP.Data
         public DbSet<Roll_Model> Roll_Table { get; set; }
         public DbSet<Bank_Model> Bank_Table { get; set; }
         public DbSet<User_Registration_Model> User_Registration_Table { get; set; }
+        public DbSet<ErrorLog_Model> ErrorLog_Table { get; set; }
 
     }
 }
