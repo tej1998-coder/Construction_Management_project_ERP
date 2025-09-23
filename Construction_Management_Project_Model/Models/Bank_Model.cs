@@ -11,6 +11,7 @@ namespace Construction_Management_Project_Model.Models
     {
         [Key]
         public int Bank_Id { get; set; }
+        [Required(ErrorMessage ="Name is required")]
         public string? Bank_Name { get; set; }
         public string? Remark { get; set; }
         public int? Created_By { get; set; }
